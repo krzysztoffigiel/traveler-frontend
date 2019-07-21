@@ -36,7 +36,7 @@ export class MyTripsComponent implements OnInit {
     {
       tripTitle: 'Hiszpania',
       tripDescription: 'Some quick example text to build on the card title and make up the bulk of the card7\'s content.',
-      tripImage: 'https://skrzydlatewakacje.pl/wp-content/uploads/2017/02/barcelona-gaudi.jpg'
+      tripImage: 'http://polskicaravaning.pl/img/artykuly/52204_hiszpania-po-sezonie-najlepiej-kamperem_1.jpg'
     },
     {
       tripTitle: 'Gruzja',
@@ -55,7 +55,6 @@ export class MyTripsComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log('trip: ', this.trips[0].tripTitle);
   }
 
 }

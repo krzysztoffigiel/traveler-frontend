@@ -12,7 +12,7 @@
                 <div class="card-body">
                   <h5 class="card-title">{{trip?.tripTitle}}</h5>
                   <p class="card-text">{{trip?.tripDescription}}</p>
-                  <a href="#" class="btn btn-primary">Szczegóły</a>
+                  <a [routerLink]="'/myTrips/myTripDetails'" class="btn btn-primary">Szczegóły</a>
                 </div>
               </div>
             </div>
@@ -22,13 +22,13 @@
     </div>
   </div>
 
-  <div class="row">
+  <!-- <div class="row">
     <div class="col col-12">
       <h1>{{texto}}</h1>
       <agm-map [latitude]="lat" [zoom]="zoom" [longitude]="lng">
         <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
       </agm-map>
     </div>
-  </div>
+  </div> -->
 
 </div>
